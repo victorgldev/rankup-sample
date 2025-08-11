@@ -1,17 +1,19 @@
 package com.victordev;
 
+import com.victordev.database.Database;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Rankup extends JavaPlugin {
 
+    Database DB = new Database();
+
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        DB.send();
     }
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+        DB.disconnect();
     }
 }

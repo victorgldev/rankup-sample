@@ -10,7 +10,7 @@ public class DatabaseManager {
 
     private HikariDataSource dataSource;
 
-    public DatabaseManager(String dbHost, String dbName, String dbUser, String dbPassword) {
+    public void connect(String dbHost, String dbName, String dbUser, String dbPassword) {
         HikariConfig config = new HikariConfig();
         config.setJdbcUrl("jdbc:mysql://" +dbHost + "/" + dbName + "?useSSL=false");
         config.setUsername(dbUser);
