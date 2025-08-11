@@ -1,0 +1,6 @@
+name: rankup-sample
+version: '1.0-SNAPSHOT'
+main: com.victordev.rankupSample.Rankup
+api-version: '1.21'
+authors: [ VictorDEV ]
+description: Um plugin na versao atual do Minecraft

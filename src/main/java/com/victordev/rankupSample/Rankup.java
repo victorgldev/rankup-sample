@@ -1,0 +1,17 @@
+package com.victordev.rankupSample;
+
+import org.bukkit.plugin.java.JavaPlugin;
+
+public final class Rankup extends JavaPlugin {
+
+    @Override
+    public void onEnable() {
+        // Plugin startup logic
+
+    }
+
+    @Override
+    public void onDisable() {
+        // Plugin shutdown logic
+    }
+}
